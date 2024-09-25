@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AAC9DDAA2C9F105100E5B4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC9DD8B2C9F104F00E5B4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC9DD922C9F104F00E5B4DF;
+			remoteInfo = Swipbox_Task;
+		};
+		AAC9DDB42C9F105100E5B4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC9DD8B2C9F104F00E5B4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC9DD922C9F104F00E5B4DF;
+			remoteInfo = Swipbox_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAC9DD932C9F104F00E5B4DF /* Swipbox_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipbox_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC9DDA92C9F105100E5B4DF /* Swipbox_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swipbox_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC9DDB32C9F105100E5B4DF /* Swipbox_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swipbox_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AAC9DDBB2C9F105100E5B4DF /* Exceptions for "Swipbox_Task" folder in "Swipbox_Task" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AAC9DD922C9F104F00E5B4DF /* Swipbox_Task */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AAC9DD952C9F104F00E5B4DF /* Swipbox_Task */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAC9DDBB2C9F105100E5B4DF /* Exceptions for "Swipbox_Task" folder in "Swipbox_Task" target */,
+			);
+			path = Swipbox_Task;
+			sourceTree = "<group>";
+		};
+		AAC9DDAC2C9F105100E5B4DF /* Swipbox_TaskTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Swipbox_TaskTests;
+			sourceTree = "<group>";
+		};
+		AAC9DDB62C9F105100E5B4DF /* Swipbox_TaskUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Swipbox_TaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC9DD902C9F104F00E5B4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9DDA62C9F105100E5B4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9DDB02C9F105100E5B4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC9DD8A2C9F104F00E5B4DF = {
+			isa = PBXGroup;
+			children = (
+				AAC9DD952C9F104F00E5B4DF /* Swipbox_Task */,
+				AAC9DDAC2C9F105100E5B4DF /* Swipbox_TaskTests */,
+				AAC9DDB62C9F105100E5B4DF /* Swipbox_TaskUITests */,
+				AAC9DD942C9F104F00E5B4DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC9DD942C9F104F00E5B4DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9DD932C9F104F00E5B4DF /* Swipbox_Task.app */,
+				AAC9DDA92C9F105100E5B4DF /* Swipbox_TaskTests.xctest */,
+				AAC9DDB32C9F105100E5B4DF /* Swipbox_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC9DD922C9F104F00E5B4DF /* Swipbox_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC9DDBC2C9F105100E5B4DF /* Build configuration list for PBXNativeTarget "Swipbox_Task" */;
+			buildPhases = (
+				AAC9DD8F2C9F104F00E5B4DF /* Sources */,
+				AAC9DD902C9F104F00E5B4DF /* Frameworks */,
+				AAC9DD912C9F104F00E5B4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAC9DD952C9F104F00E5B4DF /* Swipbox_Task */,
+			);
+			name = Swipbox_Task;
+			packageProductDependencies = (
+			);
+			productName = Swipbox_Task;
+			productReference = AAC9DD932C9F104F00E5B4DF /* Swipbox_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAC9DDA82C9F105100E5B4DF /* Swipbox_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC9DDC12C9F105100E5B4DF /* Build configuration list for PBXNativeTarget "Swipbox_TaskTests" */;
+			buildPhases = (
+				AAC9DDA52C9F105100E5B4DF /* Sources */,
+				AAC9DDA62C9F105100E5B4DF /* Frameworks */,
+				AAC9DDA72C9F105100E5B4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC9DDAB2C9F105100E5B4DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAC9DDAC2C9F105100E5B4DF /* Swipbox_TaskTests */,
+			);
+			name = Swipbox_TaskTests;
+			packageProductDependencies = (
+			);
+			productName = Swipbox_TaskTests;
+			productReference = AAC9DDA92C9F105100E5B4DF /* Swipbox_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAC9DDB22C9F105100E5B4DF /* Swipbox_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC9DDC42C9F105100E5B4DF /* Build configuration list for PBXNativeTarget "Swipbox_TaskUITests" */;
+			buildPhases = (
+				AAC9DDAF2C9F105100E5B4DF /* Sources */,
+				AAC9DDB02C9F105100E5B4DF /* Frameworks */,
+				AAC9DDB12C9F105100E5B4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC9DDB52C9F105100E5B4DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAC9DDB62C9F105100E5B4DF /* Swipbox_TaskUITests */,
+			);
+			name = Swipbox_TaskUITests;
+			packageProductDependencies = (
+			);
+			productName = Swipbox_TaskUITests;
+			productReference = AAC9DDB32C9F105100E5B4DF /* Swipbox_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC9DD8B2C9F104F00E5B4DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AAC9DD922C9F104F00E5B4DF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AAC9DDA82C9F105100E5B4DF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = AAC9DD922C9F104F00E5B4DF;
+					};
+					AAC9DDB22C9F105100E5B4DF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = AAC9DD922C9F104F00E5B4DF;
+					};
+				};
+			};
+			buildConfigurationList = AAC9DD8E2C9F104F00E5B4DF /* Build configuration list for PBXProject "Swipbox_Task" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC9DD8A2C9F104F00E5B4DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AAC9DD942C9F104F00E5B4DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC9DD922C9F104F00E5B4DF /* Swipbox_Task */,
+				AAC9DDA82C9F105100E5B4DF /* Swipbox_TaskTests */,
+				AAC9DDB22C9F105100E5B4DF /* Swipbox_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC9DD912C9F104F00E5B4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9DDA72C9F105100E5B4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9DDB12C9F105100E5B4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC9DD8F2C9F104F00E5B4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9DDA52C9F105100E5B4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9DDAF2C9F105100E5B4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAC9DDAB2C9F105100E5B4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC9DD922C9F104F00E5B4DF /* Swipbox_Task */;
+			targetProxy = AAC9DDAA2C9F105100E5B4DF /* PBXContainerItemProxy */;
+		};
+		AAC9DDB52C9F105100E5B4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC9DD922C9F104F00E5B4DF /* Swipbox_Task */;
+			targetProxy = AAC9DDB42C9F105100E5B4DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAC9DDBD2C9F105100E5B4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_ACCESS_TOKEN = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3MzYwMjBlMjBiYjE5MzAzZDU1MDYzODVhZTMyMDI1OCIsIm5iZiI6MTcyNjk0NzUwNy4zMDQxNTEsInN1YiI6IjY2ZWYxZDVhNmZkN2NjN2Q0MjNiMjVlNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ze306KL5n0aDRbMREQk5lw0xjjMpJV6bKrKu2TLNC2Y;
+				API_BASE_URL = "https://api.themoviedb.org/3";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMZUZZS988;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBANNER_MAGE_BASE_URL = "https://image.tmdb.org/t/p/w1066_and_h600_bestv2";
+				IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w440_and_h660_face";
+				INFOPLIST_FILE = Swipbox_Task/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Swipebox Test";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swipbox.Swipbox-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC9DDBE2C9F105100E5B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_ACCESS_TOKEN = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3MzYwMjBlMjBiYjE5MzAzZDU1MDYzODVhZTMyMDI1OCIsIm5iZiI6MTcyNjk0NzUwNy4zMDQxNTEsInN1YiI6IjY2ZWYxZDVhNmZkN2NjN2Q0MjNiMjVlNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ze306KL5n0aDRbMREQk5lw0xjjMpJV6bKrKu2TLNC2Y;
+				API_BASE_URL = "https://api.themoviedb.org/3";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMZUZZS988;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBANNER_MAGE_BASE_URL = "https://image.tmdb.org/t/p/w1066_and_h600_bestv2";
+				IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w440_and_h660_face";
+				INFOPLIST_FILE = Swipbox_Task/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Swipebox Test";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swipbox.Swipbox-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAC9DDBF2C9F105100E5B4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAC9DDC02C9F105100E5B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC9DDC22C9F105100E5B4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMZUZZS988;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swipbox.Swipbox-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipbox_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipbox_Task";
+			};
+			name = Debug;
+		};
+		AAC9DDC32C9F105100E5B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMZUZZS988;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swipbox.Swipbox-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipbox_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipbox_Task";
+			};
+			name = Release;
+		};
+		AAC9DDC52C9F105100E5B4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMZUZZS988;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swipbox.Swipbox-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swipbox_Task;
+			};
+			name = Debug;
+		};
+		AAC9DDC62C9F105100E5B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMZUZZS988;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swipbox.Swipbox-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swipbox_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC9DD8E2C9F104F00E5B4DF /* Build configuration list for PBXProject "Swipbox_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9DDBF2C9F105100E5B4DF /* Debug */,
+				AAC9DDC02C9F105100E5B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC9DDBC2C9F105100E5B4DF /* Build configuration list for PBXNativeTarget "Swipbox_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9DDBD2C9F105100E5B4DF /* Debug */,
+				AAC9DDBE2C9F105100E5B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC9DDC12C9F105100E5B4DF /* Build configuration list for PBXNativeTarget "Swipbox_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9DDC22C9F105100E5B4DF /* Debug */,
+				AAC9DDC32C9F105100E5B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC9DDC42C9F105100E5B4DF /* Build configuration list for PBXNativeTarget "Swipbox_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9DDC52C9F105100E5B4DF /* Debug */,
+				AAC9DDC62C9F105100E5B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC9DD8B2C9F104F00E5B4DF /* Project object */;
+}
